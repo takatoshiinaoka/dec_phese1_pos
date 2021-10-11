@@ -83,7 +83,10 @@
 
 検索で「トマトスライス」というメニューを調べる時に，「とまと」や「トマスラ」でも検索できるようにしました．具体的には,データベースにキーワードカラムを作成し，あいまいに検索しても探しやすい様にしました。
 
-<p class="info">SELECT * FROM menu_table WHERE menu LIKE "%":keyword"%" OR class LIKE "%":keyword"%" OR keyword LIKE "%":keyword"%";</p>
+```
+SELECT * FROM menu_table WHERE menu LIKE "%":keyword"%" OR class LIKE "%":keyword"%" OR keyword LIKE "%":keyword"%";
+
+```
 
 ## 苦戦した点
 
