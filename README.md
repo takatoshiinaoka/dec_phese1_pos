@@ -1,6 +1,5 @@
-# dec_phese1_pos
+# プロダクトの名前 : dec_phese1_pos
 
-# プロダクトの名前
 
 ## Auther
 
