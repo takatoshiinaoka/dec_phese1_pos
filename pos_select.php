@@ -57,7 +57,7 @@ if ($status == false) {
     <legend>検索結果</legend>
     <a href="pos_input.php">検索画面</a>
     <a href="pos_menulist.php">メニュー表</a>
-    <a href="pos_sum.php">合計金額</a>
+    <a href="pos_sum.php">合計結果</a>
     <table>
       <thead>
         <tr>
