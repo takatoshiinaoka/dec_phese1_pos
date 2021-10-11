@@ -2,13 +2,13 @@
 
 ## Auther
 
-**03\_稲岡天駿**
+- **03\_稲岡天駿**
 
 ## プロダクト URL
 
-画面収録の場合：ファイル名
+- 画面収録：ファイル名
 
-GitHub の URL：[https://github.com/takatoshiinaoka/dec_phese1_pos](https://github.com/takatoshiinaoka/dec_phese1_pos)へアクセス
+- GitHub の URL：[https://github.com/takatoshiinaoka/dec_phese1_pos](https://github.com/takatoshiinaoka/dec_phese1_pos)へアクセス
 
 ## プロダクトの紹介
 
