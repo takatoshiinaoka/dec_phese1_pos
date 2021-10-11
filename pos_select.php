@@ -1,13 +1,17 @@
 <?php
+//データベース接続
 include('functions.php');
 $pdo=connect_to_db();
 
+//GETの値を変数に代入
 $keyword = $_GET['keyword'];
 
+//DBのmenu,class,keywardカラム内であいまい検索
 $sql = 'SELECT * FROM menu_table WHERE menu LIKE "%":keyword"%" OR class LIKE "%":keyword"%" OR keyword LIKE "%":keyword"%";';
 
 $stmt = $pdo->prepare($sql);
-$stmt->bindValue(':keyword', $keyword, PDO::PARAM_STR);//バインド変数
+//バインド変数
+$stmt->bindValue(':keyword', $keyword, PDO::PARAM_STR);
 $status = $stmt->execute();
 
 if ($status == false) {

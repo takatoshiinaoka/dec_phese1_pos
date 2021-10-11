@@ -44,13 +44,13 @@ if ($status == false) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>データ検索フォーム</title>
+  <title>合計結果</title>
 </head>
 
 <body>
   
   <fieldset>
-    <legend>検索結果</legend>
+    <legend>合計結果</legend>
     <a href="pos_select.php?keyword=">戻る</a>
     <a href="pos_allreset.php">  全てリセット</a>
     <br><h2>合計金額：<?= $sum ?>円</h2>
