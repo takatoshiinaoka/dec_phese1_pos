@@ -2,7 +2,6 @@
 // var_dump($_GET);
 // exit();
 //SELECT * FROM menu_table WHERE num >0;
-
 include('functions.php');
 $pdo=connect_to_db();
 
